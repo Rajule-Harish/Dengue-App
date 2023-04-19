@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!--ID (in /navigation) and ID (in /menu) should be same name-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeAdmin"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_access"
+            android:icon="@drawable/ic_baseline_lock_person_24"
+            android:title="@string/menu_access" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/menu_notifications" />
+
+       <!-- <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/menu_signOut" /> -->
+
+    </group>
+</menu>

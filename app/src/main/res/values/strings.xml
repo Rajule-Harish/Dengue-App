@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">dengueApp</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Admin">Admin</string>
+    <string name="nav_header_adminMail">admin@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_guide">Guide to Dengue</string>
+    <string name="menu_survey">Take Survey</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_helpline">Helpline</string>
+    <string name="menu_stats">Statistics/Graphs</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_faqs">FAQs</string>
+    <string name="menu_signOut">Sign Out</string>
+
+    <string name="menu_access">Access Authorization</string>
+
+    <string name="menu_replyFAQs">Answer FAQs</string>
+    <string name="menu_survStats">Survey Statistics</string>
+
+    <string name="menu_locStats">Locality Statistics</string>
+
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_lab">LabActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

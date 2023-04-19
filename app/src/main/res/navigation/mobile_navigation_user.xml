@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_homeUser">
+
+    <fragment
+        android:id="@+id/nav_homeUser"
+        android:name="com.example.dengueapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_homeNoti"
+        android:name="com.example.dengueapp.ui.userNoti.UserNotiFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_user_noti" />
+    <fragment
+        android:id="@+id/nav_guide"
+        android:name="com.example.dengueapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_guide"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_survey"
+        android:name="com.example.dengueapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_survey"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

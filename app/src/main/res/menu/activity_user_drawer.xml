@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homeUser"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+
+
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/ic_baseline_content_paste_go_24"
+            android:title="@string/menu_survey" />
+
+        <item
+            android:id="@+id/nav_guide"
+            android:icon="@drawable/ic_baseline_menu_book_24"
+            android:title="Ask Questions" />
+
+        <!-- <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_baseline_notifications_24"
+            android:title="@string/menu_notifications" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_baseline_data_exploration_24"
+            android:title="@string/menu_stats" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_settings" />
+
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_baseline_question_answer_24"
+            android:title="@string/menu_faqs" />
+
+        <item
+            android:id="@+id/nav_helpline"
+            android:icon="@drawable/ic_baseline_call_24"
+            android:title="@string/menu_helpline" />
+
+        <item
+            android:id="@+id/nav_signOut"
+            android:icon="@drawable/ic_baseline_logout_24"
+            android:title="@string/menu_signOut" />  -->
+    </group>
+</menu>
